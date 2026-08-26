@@ -1,4 +1,4 @@
-# Sprint (1 semaine)
+# Sprint semaine du 26 aout (1 semaine)
 
 - Tester le fonctionnement avec plusieurs fichiers Markdown.
 
