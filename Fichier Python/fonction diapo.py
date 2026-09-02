@@ -1,6 +1,4 @@
 import mistletoe
-import mistletoe
-
 
 def convertir_diapositive(fichier_md, fichier_html):
     """
@@ -15,7 +13,7 @@ def convertir_diapositive(fichier_md, fichier_html):
     # Séparer les diapositives à chaque 'Slide::'
     slides = texte.split("Slide::")
 
-    # CSS des diapositives
+    # CSS des diapositives, gestion de la couleur de la diapositive
     css = """
     <style>
         .slide {
@@ -25,7 +23,7 @@ def convertir_diapositive(fichier_md, fichier_html):
         }
     </style>
     """
-
+    # Variable qui stock le contenu HTML 
     resultat = ""
 
     # Convertir chaque slide en HTML
