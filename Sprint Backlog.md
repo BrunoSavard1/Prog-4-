@@ -1,8 +1,8 @@
-# Sprint semaine du 26 aout (1 semaine)
+# Sprint semaine du 2 septembre
 
-- Tester le fonctionnement avec plusieurs fichiers Markdown.
+- Tester le fonctionnement avec plusieurs fonctionnalité Markdown(image, photo, titre ect...)
 
--  S'assurer que le Markdown qui n'est pas une macro de diapositive continue de fonctionner normalement.
+-  Corriger les fonctionnalités qui pourrait bloquer 
 
-- Documenter le code 
+- Documenter le code s'il y a des changements 
 
