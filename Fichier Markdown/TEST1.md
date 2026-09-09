@@ -12,7 +12,7 @@ Slide::
 
 #### Titre 4
 
----
+
 
 Slide::
 
@@ -28,7 +28,7 @@ Texte normal.
 
 ~~Texte barré~~
 
----
+
 
 Slide::
 
@@ -36,9 +36,9 @@ Slide::
 
 ## Liste non ordonnée
 
-* Élément 1
-* Élément 2
-* Élément 3
+* pomme
+* poire
+* fraise
 
 ## Liste ordonnée
 
@@ -46,21 +46,21 @@ Slide::
 2. Deuxième
 3. Troisième
 
----
+
 
 Slide::
 
 # 4. Listes imbriquées
 
-* Élément principal
+* folder prog
 
-  * Sous-élément
-  * Sous-élément
+  * lab1
+  * lab2
 
-    * Sous-sous-élément
-* Autre élément
+    * test.py
+* folder CI4
 
----
+
 
 Slide::
 
@@ -70,7 +70,7 @@ Slide::
 
 [Steam](https://store.steampowered.com/app/3564740/480?utm_source=googleweb&utm_source=adwords&utm_campaign=23262711564&utm_term=&utm_content=&gsc=1&utm_medium=x_5653173&gad_source=1&gad_campaignid=23267734511&gbraid=0AAAABBkoNjmplCFnmAraX-Cb1mguZR3F4&gclid=Cj0KCQjwh4TVBhCWARIsAG0czmplJ56sMJCVlTi-03DowdltOkXiwptebuxWll_N1HtltKFbzpIA5bwaAtWbEALw_wcB)
 
----
+
 
 Slide::
 
@@ -78,7 +78,7 @@ Slide::
 
 ![Image de test](https://share.google/yDnsrrvVgaMt7G842)
 
----
+
 
 Slide::
 
@@ -89,7 +89,7 @@ Slide::
 > Ceci est une citation
 > sur plusieurs lignes.
 
----
+
 
 Slide::
 
@@ -107,23 +107,11 @@ x = 10
 print(x)
 ```
 
----
+
 
 Slide::
 
-# 9. Ligne horizontale
-
-Texte au-dessus.
-
----
-
-Texte en dessous.
-
----
-
-Slide::
-
-# 10. Tableau
+# 9. Tableau
 
 | Nom   | Age | Ville      |
 | ----- | --: | ---------- |
@@ -131,55 +119,21 @@ Slide::
 | Alex  |  20 | Montréal   |
 | Marc  |  21 | Québec     |
 
----
+
 
 Slide::
 
-# 11. Retour à la ligne
-
-Première ligne
-Deuxième ligne
-Troisième ligne
-
----
-
-Slide::
-
-# 12. Échappement des caractères
-
-*Ce texte n'est pas en italique*
-
-# Ce n'est pas un titre
-
-\(Ce ne sont pas des crochets de lien\)
-
----
-
-Slide::
-
-# 13. Caractères spéciaux
+# 10. Caractères spéciaux
 
 Voici des caractères spéciaux :
 
 * _ # + - . ! \( \) \( \)
 
----
 
 Slide::
 
-# 14. Paragraphes
 
-Ceci est le premier paragraphe.
-
-Ceci est le deuxième paragraphe.
-
-Ceci est le troisième paragraphe.
-
----
-
-Slide::
-
-# 15. Liste avec différents niveaux
+# 11. Liste avec différents niveaux
 
 1. Premier niveau
 
@@ -189,11 +143,10 @@ Slide::
 
    1. Sous-élément
 
----
 
 Slide::
 
-# 16. Mélange de fonctionnalités
+# 12. Mélange de fonctionnalités
 
 ## Mon projet
 
@@ -210,12 +163,12 @@ Le programme utilise `Python` pour certains outils.
 
 > Attention : le système doit être alimenté avant de commencer les tests.
 
-Pour plus d'informations, consulter [la documentation](https://example.com).
+Pour plus d'informations, consulter [la documentation](https://www.digikey.com/en/products/detail/panasonic-industry/EVQ-P2202M/593462).
 
----
+
 
 Slide::
 
 # Fin
 
-Toutes les fonctionnalités Markdown ont été testées.
+Toutes les fonctionnalités Markdown qui ont été testées.
