@@ -6,7 +6,7 @@ Pour créer plusieurs diapositives dans un fichier Markdown, il faut utiliser le
 
 Chaque diapositive doit commencer par :
 
-```text
+```
 la macro
 ```
 
@@ -42,7 +42,7 @@ La macro va automatiquement transformer chaque section séparée par par la macr
 
 À l'intérieur d'une diapositive, il est possible d'utiliser la syntaxe Markdown habituelle :
 
-```markdown
+```
 # Titre
 
 ## Sous-titre
@@ -72,7 +72,7 @@ Il permet à la macro de savoir où une diapositive se termine et où la suivant
 
 La structure générale du fichier est donc :
 
-```text
+```
 macro
 Contenu de la diapositive 1
 
