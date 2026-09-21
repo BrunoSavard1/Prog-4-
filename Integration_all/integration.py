@@ -125,7 +125,7 @@ def convertir_diapositive(texte, fichier_html):
 
         # Ajoute la diapositive au résultat final
         resultat += slide_html
-    print(resultat)
+
     css = f"""<!DOCTYPE html>
     <html>
     <head>
