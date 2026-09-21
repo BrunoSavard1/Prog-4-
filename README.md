@@ -12,7 +12,7 @@ Intégrer plusieurs fonctionnalités développées séparément par l'équipe po
 | **Bruno** | `convertir_diapositive` | Découpe le texte en diapositives (`Slide::`), les convertit en HTML et écrit le fichier final |
 | **Jay** | `CenterText` | Centre le contenu entre deux `()` avec `<div align="center">` |
 | **Nico** | `creer_table_matiere` | Remplace `**contenu:**` par une table des matières générée depuis les titres Markdown |
-| **Zach** | `build_tree`, `build_html`, `render_tree_block` | Génère un arbre de fichiers HTML à partir d'un dossier |
+| **Zach** | `build_tree`, `build_html`, `render_tree_block`,(`!!`)| Génère un arbre de fichiers HTML à partir d'un dossier |
 
 ## Fichiers
 - `MD_integration.md` — Fichier Markdown source
