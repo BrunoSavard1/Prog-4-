@@ -1,31 +1,17 @@
-# But du projet
-le but du projet est de crée une nouvelle fonctionnalité markdown 
-qui va permet de crée des diapositives. 
+Intégration Markdown → HTML — Résumé des fonctionnalités
 
-# Qui
-- Bruno Savard programmeur 
-- Antoine Bernier Scrum Master 
+But : Convertir un fichier Markdown en présentation HTML avec diapositives, en ajoutant plusieurs fonctionnalités personnalisées (couleurs, checklist, table des matières, arbre de fichiers, texte centré).
 
-# Requis
-
-- Choix d'un macro utilisable en markdown qui n'est pas digérer par mistletoes 
-
-- En Python aller chercher le macro choisi dans le fichier .md et le stocker dans une variable 
-
--  Convertir le contenu Markdown en HTML à l'aide de Mistletoe.
-
--  Détecter les macros utilisées pour créer les diapositives.
-
-- Séparer le contenu du fichier Markdown en plusieurs diapositives.
-
--  Générer une structure HTML permettant d'afficher les diapositives.
-
--  Ajouter un style CSS pour changer la couleur des diapositives.
-
-- Permettre de naviguer entre les différentes diapositives.
-
-- Tester le fonctionnement avec plusieurs fichiers Markdown.
-
-- S'assurer que le Markdown qui n'est pas une macro de diapositive continue de fonctionner normalement.
-
-- Documentation du code 
+Fonctions par personne
+Antoine — ajouter_style
+Applique une couleur de texte et/ou de fond à un passage de texte via la syntaxe {{couleur|texte}}.
+Amé — checklistMD
+Transforme les lignes commençant par /// en cases à cocher HTML (<input type="checkbox">).
+Bruno — convertir_diapositive
+Découpe le texte en diapositives (Slide::), convertit chacune en HTML, applique les couleurs, et génère le fichier HTML final avec le CSS.
+Jay — CenterText
+Remplace des paires de () par des balises <div align="center"> pour centrer le contenu entre elles.
+Nico — creer_table_matiere
+Détecte le marqueur **contenu:** et le remplace par une table des matières générée automatiquement à partir des titres Markdown (## à ######).
+Zach — build_tree, build_html, render_tree_block
+Explore un dossier jusqu'à une certaine profondeur, construit une structure de données représentant l'arborescence des fichiers, puis la convertit en HTML sous forme de liste imbriquée.
