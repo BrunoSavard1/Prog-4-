@@ -107,24 +107,7 @@ def convertir_diapositive(texte, fichier_html):
     resultat = ""
 
     # Feuille de style CSS appliquée aux diapositives et à l'arborescence de fichiers
-    css = """
-    <style>
 
-        .slide {
-            background-color: rgb(100, 100, 100);
-            width: 100vw;
-            height: 70vh;
-            margin-bottom: 30px;
-            overflow: hidden;
-            }
-
-        .file-tree {
-            max-height: 60vh;
-            overflow: auto;
-            }
-
-    </style>
-    """
 
 
     # Parcourt chaque diapositive extraite du texte
@@ -142,10 +125,22 @@ def convertir_diapositive(texte, fichier_html):
 
         # Ajoute la diapositive au résultat final
         resultat += slide_html
+    print(resultat)
+    css = f"""<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8"/>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        {resultat}
+    </body>
+    </html>
+    """
 
     # Écrit le CSS et le résultat final dans le fichier HTML de sortie
     with open(fichier_html, 'w', encoding='utf-8') as fout:
-        fout.write(css + resultat)
+        fout.write(css)
 
 
 #jay
