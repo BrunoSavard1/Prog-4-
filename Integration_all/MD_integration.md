@@ -68,5 +68,30 @@ Ce texte devrait être centré.
 ///Tâche 3
 
 Voici encore du {{blue|texte bleu}}.
+Slide::
+## 6. Test Will
+
+@@@
+src: Libra.jpeg
+width: 500px
+height: 500px
+margin-left: 50px
+margin-top: 20px
+border-radius: 10px
+alt: texte alternatif ici
+@@@
+
+Slide::
+
+@@@
+src: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm5qMnF1ZW5wcTZtb2dqOXMxb3Mwa3J4YXpwdGtvYTRxOWkyNHB0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tR9Si4uQqcHcseVOZN/giphy.gif
+width: 400px
+height: 500px
+margin-left: 50px
+margin-top: 20px
+border-radius: 10px
+alt: texte alternatif ici
+@@@
+
 
 
