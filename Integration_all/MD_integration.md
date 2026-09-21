@@ -1,4 +1,3 @@
-
 # TEST D'INTÉGRATION
 
 **contenu:**
@@ -49,8 +48,6 @@ Ceci est un test des couleurs.
 
 Slide::
 
-
-
 ## 5. Test ensemble
 
 Cette slide teste les fonctions qui fonctionnent ensemble.
@@ -69,10 +66,11 @@ Ce texte devrait être centré.
 
 Voici encore du {{blue|texte bleu}}.
 Slide::
+
 ## 6. Test Will
 
 @@@
-src: Libra.jpeg
+src: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm5qMnF1ZW5wcTZtb2dqOXMxb3Mwa3J4YXpwdGtvYTRxOWkyNHB0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tR9Si4uQqcHcseVOZN/giphy.gif
 width: 500px
 height: 500px
 margin-left: 50px
@@ -92,6 +90,3 @@ margin-top: 20px
 border-radius: 10px
 alt: texte alternatif ici
 @@@
-
-
-
