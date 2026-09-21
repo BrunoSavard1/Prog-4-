@@ -1,4 +1,5 @@
 # README — Intégration Markdown → HTML
+1
 
 ## But du projet
 Intégrer plusieurs fonctionnalités développées séparément par l'équipe pour convertir un fichier Markdown en un document HTML complet et enrichi : diapositives, couleurs, checklist, table des matières automatique, arbre de fichiers, et texte centré.
