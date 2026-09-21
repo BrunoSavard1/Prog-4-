@@ -21,3 +21,8 @@ fichier_html	str	Chemin du fichier HTML à créer/écraser
 Sortie
 
 Aucune valeur retournée — écrit directement le fichier HTML.
+
+Les fichiers nécessaires pour effectuer les tests se trouvent tous dans le dossier `Lab1_ALL`.
+
+Pour assurer le bon fonctionnement du code, il est important d’importer l’ensemble du dossier afin que les fichiers `.md`, `.html` et `.py` se trouvent dans le même dossier. Cela permet aux différents fichiers de fonctionner correctement ensemble.
+
